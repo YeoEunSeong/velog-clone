@@ -1,0 +1,88 @@
+@import url(../src/style/reset.css);
+
+/* for align */
+.post {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  color: #212529;
+}
+
+.post {
+  width: 100%;
+}
+
+.post-thumbnail {
+  width: 100%;
+}
+
+.post-content,
+.post-info,
+.author-likes {
+  padding: 1rem;
+}
+
+.post-title {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 4px;
+}
+
+.post-desc {
+  height: 63px;
+  margin-bottom: 24px;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.write-date,
+.comments {
+  font-size: 0.75rem;
+  color: #868e96;
+}
+
+.comments::before {
+  content: '·';
+  margin: 0 4px;
+}
+
+.author-likes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.info-avatar {
+  width: 24px;
+  height: 24px;
+}
+
+.author-info {
+  color: #868e96;
+}
+
+.author-name {
+  font-weight: 700;
+  color: #212529;
+}
+
+/* .likes {
+
+} */
+
+.like {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
